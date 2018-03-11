@@ -12,7 +12,6 @@ class FizzBuzz extends Component {
 
         for(let i = 1; i <= number; i++) {
             if(i % 3 === 0 && i % 5 === 0) {
-                console.log(i);
                 items.push(fizzbuzz);
             } else if (i % 3 === 0) {
                 items.push(fizz);
@@ -23,8 +22,7 @@ class FizzBuzz extends Component {
             }
         }
 
-        const listItems = items.map(item => item);
-        return <p className="fizzbuzz-items">{listItems}</p>;
+        return <p className="fizzbuzz-items">{items}</p>;
     }
 }
 
