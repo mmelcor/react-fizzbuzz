@@ -1,0 +1,19 @@
+.fizz {
+    color: blue;
+    font-weight: 600;
+}
+.buzz {
+    color: red;
+    font-weight: 600;
+}
+.fizzbuzz {
+    color: purple;
+    font-weight: 800;
+}
+.fizzbuzz-items {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2em;
+    letter-spacing: .2em;
+}
